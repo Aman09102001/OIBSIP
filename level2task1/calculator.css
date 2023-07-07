@@ -1,0 +1,88 @@
+    *{
+      margin: 0%;
+      padding: 0%;
+    }
+    body{
+      background-color:white;    
+      height: 100vh;
+      width: 100vw;  
+      }
+   .calculator{
+    height:100vh;
+    max-height:500px;
+    width: 100%;
+    max-width:350px;
+    background-color: rgb(44, 41, 46);
+    justify-items: center;
+    text-align: center;
+    margin-left: 40%;
+    margin-top: 200px;
+    border-radius: 20px;
+    border: 2px solid black;
+    overflow: hidden;
+    }
+   
+   .heading{
+    background-color:gray;
+    height:60px;
+    text-align: center;
+    border-radius:5px;
+   }
+   .heading h1{
+    padding-top: 10px;
+    color:black
+   }
+   .box{
+    margin-top: 25px;
+   }
+   Open navbar menu
+.text-center{
+  text-align: center;
+}
+
+.bg-red{
+  background: 
+red;
+}
+
+.mx-auto{
+  margin: auto;
+}
+
+.flex{
+  display:flex;
+} 
+.flex-col{
+  flex-direction: column;
+}
+
+.items-center{
+  align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+}
+
+.key{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.keyrow{
+  margin: 9px 0;
+}
+.keyrow input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
