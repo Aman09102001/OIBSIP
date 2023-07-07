@@ -1,0 +1,88 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     }
+    body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .box{
+      background-color: aliceblue;
+      height:1220px;
+      width: 1000px;
+    }
+    .box .title{
+      height: 70px;
+      font-size: larger;
+      background-color:rgb(147, 142, 142);
+      color: aliceblue;
+    }
+  .title h1{
+    text-align: center;
+    padding-top: 10px;
+  
+  }
+  .section{
+    height:450px;
+    width: 100%;
+    display: flex;
+  }
+  .section .left,
+  .section .right{
+    height: 100%;
+    width:50%;
+    background-color:aliceblue;
+  }
+  .left .up{
+    height: 80%;
+    width: 100%;
+   
+  }
+  .section .left .up .image{
+    height:90%;
+    width: 80%;
+    margin:5% 10%;
+  }
+  .left .down{
+    width: 100%;
+    height: 20%;
+    background-color:aliceblue;
+    text-align: center;
+
+  }
+  .down h1,
+  .down h3{
+  padding:4px;
+  }
+.img{
+  height: 90%;
+  width: 90%;
+  margin: 5%;
+}
+.secondsection{
+  height: 205px;
+  width: 100%;
+  background-color:aliceblue;
+  font-size: larger;
+  font-weight: 500;
+}
+.secondsection p{
+  margin-left: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.thirdsection{
+  height: 495px;
+  width: 100%;
+  background-color:rgb(193, 221, 246);
+  font-size: large;
+  font-weight: 500;
+  word-spacing: 5px;
+}
+.thirdsection p{
+  padding:6px 8px;
+}
+.thirdsection h2{
+margin-left:10px;
+}
